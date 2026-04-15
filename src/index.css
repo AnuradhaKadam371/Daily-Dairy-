@@ -1,53 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap');
-
-:root {
-  --bg:
-    radial-gradient(circle at top left, rgba(255, 225, 235, 0.92), transparent 28%),
-    radial-gradient(circle at top right, rgba(255, 207, 223, 0.88), transparent 25%),
-    linear-gradient(180deg, #fff8fb 0%, #ffeef5 48%, #fff9fb 100%);
-  --text: #6c4855;
-  --heading: #6d3148;
-  --muted: #8f6a77;
-  --label: #7a4a5d;
-  --accent: #eb8eaf;
-  --accent-strong: #c0567e;
-  --card-bg: rgba(255, 249, 251, 0.75);
-  --card-border: rgba(225, 178, 194, 0.3);
-  --card-shadow: 0 24px 70px rgba(216, 135, 166, 0.14);
-  --soft-bg: rgba(255, 239, 244, 0.9);
-  --soft-border: rgba(226, 170, 189, 0.34);
-  --input-bg: rgba(255, 255, 255, 0.82);
-  --input-border: rgba(220, 171, 189, 0.45);
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-:root[data-theme='dark'] {
-  --bg:
-    radial-gradient(circle at top left, rgba(119, 60, 85, 0.38), transparent 24%),
-    radial-gradient(circle at top right, rgba(80, 40, 62, 0.42), transparent 20%),
-    linear-gradient(180deg, #1d1420 0%, #24161d 48%, #150f18 100%);
-  --text: #f0dfe6;
-  --heading: #fff2f6;
-  --muted: #d0b4c0;
-  --label: #f3d4de;
-  --accent: #ff98bf;
-  --accent-strong: #ffc1d7;
-  --card-bg: rgba(44, 27, 38, 0.72);
-  --card-border: rgba(255, 193, 215, 0.12);
-  --card-shadow: 0 24px 70px rgba(3, 3, 6, 0.32);
-  --soft-bg: rgba(255, 205, 224, 0.08);
-  --soft-border: rgba(255, 205, 224, 0.16);
-  --input-bg: rgba(255, 255, 255, 0.06);
-  --input-border: rgba(255, 204, 224, 0.14);
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -58,16 +9,12 @@ html {
 }
 
 body {
-  margin: 0;
-  min-width: 320px;
   min-height: 100vh;
-  background: var(--bg);
-  color: var(--text);
-  transition: background 0.35s ease, color 0.35s ease;
 }
 
 button,
 input,
+select,
 textarea {
   font: inherit;
 }
