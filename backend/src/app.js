@@ -11,7 +11,7 @@ const app = express()
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://daily-dairy.vercel.app"
+    "https://daily-dairy-nine.vercel.app"
   ],
   credentials: true
 }))
