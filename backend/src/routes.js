@@ -7,6 +7,7 @@ const requireAuth = require('./middlewares/auth')
 
 const router = express.Router()
 
+
 router.get('/health', (_req, res) => {
   res.json({ success: true, message: 'Dreamy Diary API is healthy.' })
 })
